@@ -1,6 +1,9 @@
 {
     "typescript.tsdk": "node_modules/typescript/lib",
     "cSpell.words": [
-        "Negociacao"
+        "alurabank",
+        "author",
+        "Negociacao",
+        "specified"
     ]
 }
