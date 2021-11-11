@@ -1,5 +1,5 @@
 export class Negociacao{
-  private _data;    //underline para atributos privados no typescript
+  private _data;    
   private _quantidade;
   private _valor;
 
