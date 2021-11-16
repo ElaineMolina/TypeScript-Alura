@@ -1,1 +1,1 @@
-# typescript-curso-1 aprendendo com Alura
+# typescript - aprendendo com Alura
