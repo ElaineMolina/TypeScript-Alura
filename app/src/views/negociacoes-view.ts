@@ -30,11 +30,11 @@ export class NegociacoesViews extends View<Negociacoes>{
     </table>  
     `;
   }
-  update(model: Negociacoes): void{
-    const template = this.template(model);
-    console.log(template);
-    this.elemento.innerHTML = template;
-  }
+ // update(model: Negociacoes): void{
+   // const template = this.template(model);
+   // console.log(template);
+   // this.elemento.innerHTML = template;
+  //}
   private formatar(data: Date): string {
     return new Intl.DateTimeFormat()
     .format(data);
