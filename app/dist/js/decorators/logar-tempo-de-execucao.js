@@ -1,0 +1,6 @@
+export function logarTempoDeExecucao() {
+    return function (target, propertyKey, descriptor) {
+        return descriptor;
+    };
+}
+//# sourceMappingURL=logar-tempo-de-execucao.js.map
