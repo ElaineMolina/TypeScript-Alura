@@ -7,9 +7,15 @@ import { MensagemView } from "../views/mensagem-view.js";
 import { NegociacoesViews } from "../views/negociacoes-view.js";
 //
 export class NegociacaoController {
+  @domInjector('#data')
   private inputData: HTMLInputElement;
+
+  @domInjector('#quantidade')
   private inputQuantidade: HTMLInputElement;
+
+  @domInjector('#valor')
   private inputValor: HTMLInputElement;
+
   private negociacoes = new Negociacoes();
   private negociacoesView = new NegociacoesViews('#negociacoesView');
   private mensagemView = new MensagemView('#mensagemView');
