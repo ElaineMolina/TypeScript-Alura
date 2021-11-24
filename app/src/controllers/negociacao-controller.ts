@@ -1,3 +1,4 @@
+import { domInjector } from "../decorators/dom-injector.js";
 import { inspect } from "../decorators/inspect.js";
 import { logarTempoDeExecucao } from "../decorators/logar-tempo-de-execucao.js";
 import { DiasDaSemana } from "../enums/dias-da-semana.js";
@@ -22,9 +23,6 @@ export class NegociacaoController {
 
 
   constructor() {
-    this.inputData = <HTMLInputElement>document.querySelector('#data');
-    this.inputQuantidade = document.querySelector('#quantidade') as HTMLInputElement;
-    this.inputValor = document.querySelector('#valor') as HTMLInputElement;
     this.negociacoesView.update(this.negociacoes);
   }
   @inspect
